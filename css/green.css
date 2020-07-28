@@ -1,0 +1,29 @@
+
+
+.topstrip, .bg-purple, .bg-green, .bg-cyan
+{
+background:#213967;
+}
+
+.fashion-designer-bg {
+   background: #213967 url(../images/fashion-designers.webp) no-repeat right bottom;
+}
+
+
+.light-cyan, .light-purple, .purple-cyan, .light-green {
+   background-color: rgba(33,57,103, 0.8);
+}
+
+.tabbedpanel .active, .testimonials-nav .nav-link{
+   background:#213967 !important;
+}
+
+.testimonials-nav .active {
+   background: #fff !important;
+}
+.tabbedpanel .nav-link, .color-cyan{
+
+   color: #213967;
+
+}
+
