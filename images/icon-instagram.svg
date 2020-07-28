@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 26 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(0.711458,0,0,0.919643,-1258.2,-36.9279)">
+        <g transform="matrix(1.40556,-0,-0,1.08738,1768.49,40.1546)">
+            <use xlink:href="#_Image1" x="0" y="0" width="25.574px" height="25.574px" transform="matrix(0.983625,0,0,0.983625,0,0)"/>
+        </g>
+        <g transform="matrix(2.0005,0,0,1.54764,-149.747,22.241)">
+            <circle cx="967.861" cy="20.559" r="8.438" style="fill:white;"/>
+        </g>
+        <g transform="matrix(0.0997667,0,0,0.077182,1778.03,47.5348)">
+            <g>
+                <path d="M122.406,0L46.654,0C20.929,0 0,20.93 0,46.655L0,122.407C0,148.133 20.929,169.062 46.654,169.062L122.406,169.062C148.133,169.062 169.062,148.132 169.062,122.407L169.062,46.655C169.063,20.93 148.133,0 122.406,0ZM154.063,122.407C154.063,139.862 139.862,154.062 122.407,154.062L46.654,154.062C29.2,154.063 15,139.862 15,122.407L15,46.655C15,29.201 29.2,15 46.654,15L122.406,15C139.861,15 154.062,29.201 154.062,46.655L154.062,122.407L154.063,122.407Z" style="fill-rule:nonzero;"/>
+                <path d="M84.531,40.97C60.51,40.97 40.968,60.512 40.968,84.533C40.968,108.553 60.51,128.094 84.531,128.094C108.552,128.094 128.094,108.553 128.094,84.533C128.094,60.512 108.552,40.97 84.531,40.97ZM84.531,113.093C68.782,113.093 55.968,100.281 55.968,84.532C55.968,68.782 68.781,55.969 84.531,55.969C100.281,55.969 113.094,68.782 113.094,84.532C113.094,100.281 100.28,113.093 84.531,113.093Z" style="fill-rule:nonzero;"/>
+                <path d="M129.921,28.251C127.031,28.251 124.192,29.421 122.151,31.471C120.1,33.511 118.921,36.351 118.921,39.251C118.921,42.142 120.101,44.981 122.151,47.031C124.191,49.071 127.031,50.251 129.921,50.251C132.821,50.251 135.651,49.071 137.701,47.031C139.751,44.981 140.921,42.141 140.921,39.251C140.921,36.351 139.751,33.511 137.701,31.471C135.661,29.421 132.821,28.251 129.921,28.251Z" style="fill-rule:nonzero;"/>
+            </g>
+        </g>
+    </g>
+    <defs>
+        <image id="_Image1" width="26px" height="26px" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAACXBIWXMAAA7EAAAOxAGVKw4bAAABo0lEQVRIibXWfY/SQBDH8Q/tlUPOe5BEEx/e/0tTEqMn4iEctPWPnZV6geOK8EuaSbftfjuzszM7sFsDFLjAJUZhK5TxTo01VliG3aBBu2vCpypisle4xh1uMcbwCegRC8zwA3P8jmfNc6AiJrvGBG/Dlp5Xje/4GnYeP/EX1p2gkEI0wXt8DG+KA5D87VVcpRS6TfxA2wVlTyYB+BT3fVXhRorUuuNVW8bgRbzwISAv8WKfBngtebQMWFtKXo3xTvLmGE92wYYBWWJTxsAb2zU5laqwCywLaX/cSetzak1i7sucabcOp/AxKqW1H2WPxmeAZF0JjyqnSYB9GqLK5eYcYcsqUf7PfumlQioT9RkZNerCtlScS49YF1IfWZwR9IBVIZWImfOEr8ZPLLvVeyTl/Cn1DVPMM6i17SnVvq96aoHPAVtlUBNXbhe7WnwfNQGZ4hfq7kbN3TD3k2NhDb4EZCb1pbYbuiYG12GH+ocxh2uKeymjG/4tPa3tySZ3RlKSHKogtbQWGTLrQnj5cetGSpRdx60HKYV7Hbe64yc9QP4BuT16h3ySqA0AAAAASUVORK5CYII="/>
+    </defs>
+</svg>
