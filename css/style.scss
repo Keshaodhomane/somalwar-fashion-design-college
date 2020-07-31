@@ -549,6 +549,7 @@ $large-laptop-max:1920px;
     grid-template-columns: 1fr;
     padding: 0 20px;
     border-radius: 10px;
+    margin: 0 15px;
 
     & h3
     {
@@ -557,7 +558,8 @@ $large-laptop-max:1920px;
 
     & > div
     {
-        align-self: center;
+        padding-top:60px;
+        
     }
 
     .showdate
@@ -571,35 +573,110 @@ $large-laptop-max:1920px;
 }
 
 
+
+
+
 .boxcontent
 {
     min-height: 250px;
     display: grid;
     grid-template-columns: 1fr;
-    text-align: center;
+    text-align: center !important;
 
      & > div
      {
-         justify-self: center;
+         padding-top:25px;
          align-self: center;
+        
+        
 
          .img-div
          {
              min-height: 87px;
          }
      }
+
+
+    
 }
 
-.fashion-designer-bg
+
+.boxcontent:nth-child(even){
+    background:$grey;
+}
+
+.imgsabs
 {
 
-background: $purple url('../images/fashion-designers.webp') no-repeat right bottom;
+position: absolute;
+width: 100%;
+left: 0;
+top: 0;
+z-index: 1;
+min-height: 600px;
+
+& > div
+{
+    width: 100%;
+    min-height: 600px;
+    background-repeat: no-repeat;
+background-position: right bottom;
+}
+
 
 @include tablet(){
     background: $purple;
+
 }
 
 
+}
+
+
+
+.fashion-designer-bg{
+
+    background: url('../images/fashion-designers.webp');
+    position: absolute;
+    z-index: 1;
+
+}
+
+
+.interior-designer-bg{
+
+    background: url('../images/img2.webp');
+    position: absolute;
+    z-index: 1;
+    
+}
+
+
+.textile-designer-bg{
+
+    background: url('../images/img3.webp');
+    position: absolute;
+    z-index: 1;
+    
+}
+
+
+
+
+.posrel
+{
+    position: relative;
+    width: 100%;
+    height: 600px;
+}
+
+.absdiv
+{
+position: absolute;
+z-index: 2;
+width: 100%;
+left: 0;
+top: 0;
 }
 
 .more-details
@@ -1038,4 +1115,17 @@ background: $purple url('../images/fashion-designers.webp') no-repeat right bott
     }
 
 
+}
+
+
+
+.logos {
+
+   .boxcontent
+    {
+        margin: 0 20px;
+        text-align: center;
+    }
+
+  
 }
