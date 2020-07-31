@@ -10,6 +10,30 @@ $('.quotes').slick({
 });
 
 
+
+$('.eventbanner').slick({
+  dots: true,
+  infinite: true,
+  autoplay: true,
+  autoplaySpeed: 6000,
+  speed: 800,
+  slidesToShow: 2,
+  adaptiveHeight: true
+});
+
+
+
+$('.logos').slick({
+  dots: true,
+  infinite: true,
+  autoplay: true,
+  autoplaySpeed: 6000,
+  speed: 800,
+  slidesToShow: 4,
+  adaptiveHeight: true
+});
+
+
 /*
 To prevent the flashing of unstyled content (FOUC) I created a class ".no-fouc"
 which hides the slider.  When everything is ready to roll, I simply remove the
@@ -189,3 +213,23 @@ $(document).ready(function(){
 
   t.play();
   t.repeat(-1);
+
+
+
+
+  var images = $(".imgsabs div");
+  var t_new = new TimelineMax({paused:true});
+
+  t_new.set(images,{display:"none"})
+
+  $(images).each(function(index, element)
+  {
+    t_new.from(images[index], 1, {display:"block", autoAlpha:0,  ease:Sine.easeOut})
+    t_new.to(images[index],1,{autoAlpha:0},"+=4");
+ })
+
+ t_new.play();
+ t_new.repeat(-1);
+
+
+
