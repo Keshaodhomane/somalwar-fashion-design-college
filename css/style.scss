@@ -204,6 +204,16 @@ $large-laptop-max:1920px;
         .nav-item
         {
 
+            @include mobile(){
+                padding: 10px 0px;
+            }
+
+
+            @include tablet(){
+                padding: 10px 0px;
+            }
+
+
             .nav-link
             {
 
@@ -216,6 +226,7 @@ $large-laptop-max:1920px;
                     padding: 10px 0;
                     border-bottom: 1px solid rgba($black, 0.1);
                     font-size: 14px;
+                    
                 }
 
                 @include tablet(){
@@ -624,10 +635,6 @@ background-position: right bottom;
 }
 
 
-@include tablet(){
-    background: $purple;
-
-}
 
 
 }
@@ -636,27 +643,53 @@ background-position: right bottom;
 
 .fashion-designer-bg{
 
-    background: url('../images/fashion-designers.webp');
+   
+    background: url('../images/fashion-designers.png');
     position: absolute;
     z-index: 1;
+    
+    @include mobile(){
+        background:transparent;
+    }
+
+    @include tablet(){
+        background:transparent;
+    }
+
+
+   
 
 }
 
 
 .interior-designer-bg{
 
-    background: url('../images/img2.webp');
+    background: url('../images/img2.png');
     position: absolute;
     z-index: 1;
+    @include mobile(){
+        background:transparent;
+    }
+
+    @include tablet(){
+        background:transparent;
+    }
     
 }
 
 
 .textile-designer-bg{
 
-    background: url('../images/img3.webp');
+    background: url('../images/img3.png');
     position: absolute;
     z-index: 1;
+    @include mobile(){
+        background:transparent;
+    }
+
+    @include tablet(){
+        background:transparent;
+    }
     
 }
 
@@ -668,6 +701,14 @@ background-position: right bottom;
     position: relative;
     width: 100%;
     height: 600px;
+
+    @include mobile(){
+        height: auto;
+    }
+    
+    @include tablet(){
+        height: auto;
+    }
 }
 
 .absdiv
@@ -677,6 +718,16 @@ z-index: 2;
 width: 100%;
 left: 0;
 top: 0;
+
+@include mobile(){
+    position: relative;
+}
+
+@include tablet(){
+    position: relative;
+}
+
+
 }
 
 .more-details
@@ -859,7 +910,7 @@ top: 0;
 
 .bg-circles
 {
-    background:url('../images/circles-bg.webp') no-repeat center center;
+    background:url('../images/circles-bg.png') no-repeat center center;
     background-size: cover;
 }
 
@@ -987,7 +1038,7 @@ top: 0;
 
 .quotesbg
 {
-    background:url('../images/quotes.webp') no-repeat center center;
+    background:url('../images/quotes.png') no-repeat center center;
     min-height: 380px;
     display: grid;
     grid-template-columns: 1fr;

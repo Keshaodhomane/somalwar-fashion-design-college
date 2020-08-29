@@ -133,6 +133,18 @@ html, body {
   }
 }
 
+@media (max-width: 360px) {
+  .main-nav .navbar-nav .nav-item {
+    padding: 10px 0px;
+  }
+}
+
+@media (max-width: 768px) {
+  .main-nav .navbar-nav .nav-item {
+    padding: 10px 0px;
+  }
+}
+
 .main-nav .navbar-nav .nav-item .nav-link {
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
@@ -486,28 +498,58 @@ html, body {
   background-position: right bottom;
 }
 
-@media (max-width: 768px) {
-  .imgsabs {
-    background: #6A3D80;
+.fashion-designer-bg {
+  background: url("../images/fashion-designers.png");
+  position: absolute;
+  z-index: 1;
+}
+
+@media (max-width: 360px) {
+  .fashion-designer-bg {
+    background: transparent;
   }
 }
 
-.fashion-designer-bg {
-  background: url("../images/fashion-designers.webp");
-  position: absolute;
-  z-index: 1;
+@media (max-width: 768px) {
+  .fashion-designer-bg {
+    background: transparent;
+  }
 }
 
 .interior-designer-bg {
-  background: url("../images/img2.webp");
+  background: url("../images/img2.png");
   position: absolute;
   z-index: 1;
 }
 
+@media (max-width: 360px) {
+  .interior-designer-bg {
+    background: transparent;
+  }
+}
+
+@media (max-width: 768px) {
+  .interior-designer-bg {
+    background: transparent;
+  }
+}
+
 .textile-designer-bg {
-  background: url("../images/img3.webp");
+  background: url("../images/img3.png");
   position: absolute;
   z-index: 1;
+}
+
+@media (max-width: 360px) {
+  .textile-designer-bg {
+    background: transparent;
+  }
+}
+
+@media (max-width: 768px) {
+  .textile-designer-bg {
+    background: transparent;
+  }
 }
 
 .posrel {
@@ -516,12 +558,36 @@ html, body {
   height: 600px;
 }
 
+@media (max-width: 360px) {
+  .posrel {
+    height: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .posrel {
+    height: auto;
+  }
+}
+
 .absdiv {
   position: absolute;
   z-index: 2;
   width: 100%;
   left: 0;
   top: 0;
+}
+
+@media (max-width: 360px) {
+  .absdiv {
+    position: relative;
+  }
+}
+
+@media (max-width: 768px) {
+  .absdiv {
+    position: relative;
+  }
 }
 
 .more-details {
@@ -649,7 +715,7 @@ html, body {
 }
 
 .bg-circles {
-  background: url("../images/circles-bg.webp") no-repeat center center;
+  background: url("../images/circles-bg.png") no-repeat center center;
   background-size: cover;
 }
 
@@ -763,7 +829,7 @@ html, body {
 }
 
 .quotesbg {
-  background: url("../images/quotes.webp") no-repeat center center;
+  background: url("../images/quotes.png") no-repeat center center;
   min-height: 380px;
   display: -ms-grid;
   display: grid;
